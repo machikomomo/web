@@ -255,9 +255,63 @@ h1 {
     margin-bottom: 15px;
     width: 228px;
     height: 270px;
-    background-color: pink;
+    background-color: #fff;
 }
 
 .lesson .content li:nth-child(5n) {
     margin-right: 0;
+}
+
+.lesson .content li h3 {
+    padding: 20px;
+    font-size: 14px;
+    color: #050505;
+    font-weight: 400;
+}
+
+.lesson .content li p {
+    padding: 0 20px;
+    font-size: 12px;
+    color: #999;
+}
+
+.lesson .content li span {
+    color: #ff7c2d;
+}
+
+.footer {
+    height: 417px;
+    background-color: #fff;
+    margin-top: 40px;
+    padding-top: 30px;
+}
+
+.footer .wrapper .left {
+    float: left;
+}
+
+.footer .right {
+    float: right;
+}
+
+.footer .left p {
+    margin: 20px 0 10px;
+    font-size: 12px;
+    color: #666;
+}
+
+.footer .left a {
+    display: block;
+    width: 120px;
+    height: 36px;
+    border: 1px solid #00a4ff;
+    text-align: center;
+    line-height: 36px;
+    font-size: 16px;
+    color: #00a4ff;
+}
+
+.footer .right dl {
+    float: left;
+    margin-left: 120px;
 }
